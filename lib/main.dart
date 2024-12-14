@@ -1,8 +1,10 @@
-import 'package:flutter/material.dart'; // Adnroid
-import 'flutter-01.dart';
-import 'flutter-02.dart';
-import 'flutter-03.dart';
-import 'flutter-04.dart';
+
+import 'package:flutter/material.dart';
+
+import 'P01.dart';
+import 'P02.dart';
+import 'P03.dart';
+import 'examples.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,7 +22,8 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: BMIPage(),
+      home: const LoginPage(),
     );
   }
 }
+
